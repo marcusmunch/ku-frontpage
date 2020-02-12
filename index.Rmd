@@ -1,0 +1,33 @@
+---
+title: "This is a document for testing with a title that is way too long to show up on a single line"
+subtitle: "oh no what have i done i am not good with computer"
+author: "Hunter2"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+  bookdown::pdf_book:
+    template: template.tex
+    latex_engine: xelatex
+    keep_tex: true
+documentclass: report
+bibliography: bibliography.bib
+description: "DESCRIPTION"
+
+header-includes:
+  - \usepackage[english, science, titlepage]{ku-frontpage}
+  - \assignment{MSc thesis}
+  - \advisor{The Internet}
+  - \frontpageimage{example.png}
+
+  - \usepackage{subfig}
+  - \usepackage{float}
+  - \floatplacement{figure}{H}
+
+---
+
+\pagenumbering{roman}
+
+# Title
+
+Lorem ipsum
+
