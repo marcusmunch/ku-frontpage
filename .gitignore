@@ -3,3 +3,6 @@
 *.aux
 *.toc
 /*.pdf
+
+# Bookdown output
+_book/
