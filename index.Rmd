@@ -1,5 +1,7 @@
 ---
-title: "This is a document for testing with a title that is way too long to show up on a single line"
+title: |
+  | This is a document for testing with a title that is
+  | way too long to show up on a single line
 subtitle: "oh no what have i done i am not good with computer"
 author: "Hunter2"
 date: "`r Sys.Date()`"
