@@ -29,7 +29,7 @@ header-includes:
 
 \pagenumbering{roman}
 
-# Title
+# The Chapter
 
 Lorem ipsum
 
